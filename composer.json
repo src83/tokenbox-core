@@ -1,0 +1,14 @@
+{
+    "name": "src83/tokenbox-core",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Src83\\TokenBoxCore\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
