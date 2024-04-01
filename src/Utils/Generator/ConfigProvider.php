@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace src\Utils\Generator;
+namespace Src83\TokenBoxCore\src\Utils\Generator;
 
-use lib\TokenBox;
-use src\DTO\Generator\ConfigDTO;
+use Src83\TokenBoxCore\lib\TokenBox;
+use Src83\TokenBoxCore\src\DTO\Generator\ConfigDTO;
 
 class ConfigProvider
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace lib;
+namespace Src83\TokenBoxCore\lib;
 
 /**
  * Base62: A class to convert a number from any base between 2-62 to any other base between 2-62

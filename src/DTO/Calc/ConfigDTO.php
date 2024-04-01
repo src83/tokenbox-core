@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace src\DTO\Calc;
+namespace Src83\TokenBoxCore\src\DTO\Calc;
 
 class ConfigDTO
 {

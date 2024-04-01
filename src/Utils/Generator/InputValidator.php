@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace src\Utils\Generator;
+namespace Src83\TokenBoxCore\src\Utils\Generator;
 
 class InputValidator
 {

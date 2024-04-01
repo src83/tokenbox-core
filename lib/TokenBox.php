@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace lib;
+namespace Src83\TokenBoxCore\lib;
 
-use src\DTO\Generator\ConfigDTO;
+use Src83\TokenBoxCore\src\DTO\Generator\ConfigDTO;
 
 class TokenBox
 {

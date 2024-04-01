@@ -2,13 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Tests;
+namespace Src83\TokenBoxCore\Tests;
 
 use PHPUnit\Framework\TestCase;
-use lib\Calc;
-use src\DTO\Calc\ConfigDTO;
-
-require_once dirname(__DIR__) . '/src/custom_autoload.php';
+use Src83\TokenBoxCore\lib\Calc;
+use Src83\TokenBoxCore\src\DTO\Calc\ConfigDTO;
 
 // -----------------------------------------------------------------------------
 

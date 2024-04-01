@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace src\Utils\Calc;
+namespace Src83\TokenBoxCore\src\Utils\Calc;
 
 class InputValidator
 {

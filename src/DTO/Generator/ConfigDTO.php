@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace src\DTO\Generator;
+namespace Src83\TokenBoxCore\src\DTO\Generator;
 
 class ConfigDTO
 {

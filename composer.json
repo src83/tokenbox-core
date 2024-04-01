@@ -3,12 +3,12 @@
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Src83\\TokenBoxCore\\": "src/"
+            "Src83\\TokenBoxCore\\": ""
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\": "tests/"
+            "Src83\\TokenBoxCore\\Tests\\": "tests/"
         }
     }
 }
