@@ -10,7 +10,6 @@ class TokenBox
 {
     public const counterLen = 2;
     public const BASE = 62;
-    public const boxFolder = 'data/txt/';
 
     private array $box;
     private Base62 $base62;
@@ -24,9 +23,10 @@ class TokenBox
     private int $sumBeforeMix;
     private int $sumAfterMix;
 
+    private string $boxFolder;
     private string $boxFile;
 
-    public function __construct(ConfigDTO $configDTO)
+    public function __construct(ConfigDTO $configDTO, string $boxFolder)
     {
         $this->box = [];
         $this->base62 = new Base62();
@@ -40,6 +40,7 @@ class TokenBox
         $this->sumBeforeMix = 0;
         $this->sumAfterMix = 0;
 
+        $this->boxFolder = $boxFolder;
         $this->boxFile = $this->getFilename();
     }
 
@@ -198,7 +199,7 @@ class TokenBox
 
         $counter = ($delta === 0) ? $quadCurrent : str_repeat('0', $delta) . $quadCurrent;
 
-        return self::boxFolder.'box_L'.$this->index.'_'.$this->SIDE.'x'.$this->SIDE.'_'.$counter.'.txt';
+        return $this->boxFolder.'box_L'.$this->index.'_'.$this->SIDE.'x'.$this->SIDE.'_'.$counter.'.txt';
     }
 
     // -----------------------------------------------------------------------------
